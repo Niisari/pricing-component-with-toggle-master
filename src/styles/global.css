@@ -1,0 +1,47 @@
+/* Custom Variables */
+:root {
+    /* Primary Colors */
+    --linear-gradient: linear-gradient(
+    to right,
+    hsl(237, 73%, 79%),
+    hsl(238, 63%, 64%)
+    );
+
+    /* Neutral Colors */
+    --blue-color-50: hsl(240, 78%, 98%);
+    --gray-color-650: hsl(233, 13%, 49%);
+    --gray-color-700: hsl(232, 13%, 33%);
+}
+
+/*  Main Title and Toggle Button*/
+.main__title {
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.toggle__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .toggle__btn {
+        margin: 0 1rem;
+        width: 3rem;
+        height: 1.5rem;
+        position: relative;
+
+        border-radius: 1rem;
+        border: none;
+        background: var(--linear-gradient);
+
+        .toggle__circle {
+            position: absolute;
+            top: 0.15rem;
+            right: 0.25rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 50%;
+            background-color: var(--blue-color-50);
+        }
+    }
+}
