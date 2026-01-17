@@ -40,7 +40,7 @@
 
     .toggle__circle {
       position: absolute;
-      top: 0.20rem;
+      top: 0.2rem;
       right: 0.25rem;
       width: 1.35rem;
       height: 1.35rem;
@@ -48,6 +48,10 @@
       background-color: var(--blue-color-50);
       transition: transform 0.3s ease-in-out;
     }
+  }
+
+  .toggle__btn:hover {
+    opacity: 0.5;
   }
 
   .toggle__btn.active .toggle__circle {
