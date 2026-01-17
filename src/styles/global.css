@@ -61,6 +61,6 @@
   .annual,
   .monthly {
     color: var(--gray-color-700);
-    filter: brightness(200%);
+    opacity: 0.5;
   }
 }
