@@ -1,10 +1,10 @@
 /* Montserrat Font */
 @font-face {
-  font-display: swap; 
-  font-family: 'Montserrat';
+  font-display: swap;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url('../assets/fonts/montserrat-v31-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../assets/fonts/montserrat-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* General Typography */
@@ -15,9 +15,11 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
+
+  min-height: 100svh;
 }
 
 button {
