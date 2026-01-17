@@ -1,58 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="./src/styles/global.css">
-  <link rel="stylesheet" href="./src/styles/reset.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./src/styles/global.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <main class="main__container">
+      <h1 class="main__title">Our Pricing</h1>
 
-  <main class="main__container">
-
-    <h1 class="main__title">Our Pricing</h1>
-
-    <div class="toggle__container">
-      <p class="annual">Annually</p>
-      <button class="toggle__btn" id="toggle__btn" type="button">
-        <div class="toggle__circle" id="toggle__circle"></div>
-      </button>
-      <p class="monthly">Monthly</p>
-    </div>
-
-    <div class="card__container">
-      <div class="card__basic">
-        <h2 class="card__subtitle">Basic</h2>
-        <p id="pricing"></p>
-        <p class="card__text">500 GB Storage</p>
-        <p class="card__text">Users Allowed</p> 
-        <p class="card__text">Send up to 3 GB</p>
-        <button class="card__btn" type="button">Learn More</button>
+      <div class="toggle__container">
+        <p class="annual">Annually</p>
+        <button class="toggle__btn" id="toggle__btn" type="button">
+          <div class="toggle__circle" id="toggle__circle"></div>
+        </button>
+        <p class="monthly">Monthly</p>
       </div>
 
-      <div class="card__professional">
-        <h2 class="card__subtitle">Professional</h2>
-        <p id="pricing"></p>
-        <p class="card__text">1 TB Storage</p>
-        <p class="card__text">5 Users Allowed</p>
-        <p class="card__text">Send up to 10 GB</p>
-        <button class="card__btn" type="button">Learn More</button>
+      <div class="card__container">
+        <div class="card__basic">
+          <h2 class="card__subtitle">Basic</h2>
+          <p id="pricing__basic"></p>
+          <p class="card__text">500 GB Storage</p>
+          <p class="card__text">Users Allowed</p>
+          <p class="card__text">Send up to 3 GB</p>
+          <button class="card__btn" type="button">Learn More</button>
+        </div>
+
+        <div class="card__professional">
+          <h2 class="card__subtitle">Professional</h2>
+          <p id="pricing__professional"></p>
+          <p class="card__text">1 TB Storage</p>
+          <p class="card__text">5 Users Allowed</p>
+          <p class="card__text">Send up to 10 GB</p>
+          <button class="card__btn" type="button">Learn More</button>
+        </div>
+
+        <div class="card__master">
+          <h2 class="card__subtitle">Master</h2>
+          <p id="pricing__master"></p>
+          <p class="card__text">2 TB Storage</p>
+          <p class="card__text">10 Users Allowed</p>
+          <p class="card__text">Send up to 20 GB</p>
+          <button class="card__btn" type="button">Learn More</button>
+        </div>
       </div>
+    </main>
 
-      <div class="card__master">
-        <h2 class="card__subtitle">Master</h2>
-        <p id="pricing"></p>
-        <p class="card__text">2 TB Storage</p>
-        <p class="card__text">10 Users Allowed</p>
-        <p class="card__text">Send up to 20 GB</p>
-        <button class="card__btn" type="button">Learn More</button>
-      </div>
-    </div>
-
-  </main>
-
-  <script src="./src/scripts/index.js"></script>
-</body>
+    <script src="./src/scripts/index.js"></script>
+  </body>
 </html>
