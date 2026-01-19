@@ -15,12 +15,20 @@
   --gray-color-700: hsl(232, 13%, 33%);
 }
 
+body {
+  background: var(--blue-color-50);
+}
+
 /*  Main Title and Toggle Button*/
 .main__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background: url("../assets/images/bg-top.svg") no-repeat;
+  background-size: 81%;
+  background-position: right -40vw top -2%;
 }
 
 .main__title {
@@ -187,6 +195,15 @@
 
 /* Media Queries */
 @media only screen and (min-width: 992px) {
+  .main__container {
+    background-image:
+    url("../assets/images/bg-top.svg"), url("../assets/images/bg-bottom.svg");
+    background-size: 25%, 25%;
+    background-position:
+      right top,
+      left bottom;
+  }
+
   .card__container {
     flex-direction: row;
     align-items: center;
